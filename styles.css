@@ -23,6 +23,7 @@ header {
     height: 5em;
     top: 0;
     background-color: rgba(233, 241, 241,1);
+    border-top: .3em solid red;
     border-bottom: .3em solid red;
     display: flex;
     /* position: fixed;  */
