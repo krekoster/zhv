@@ -110,8 +110,8 @@ p {
 }
 
 #probna_slika > img{
-    display: flex;
-    width: 90vw;
+    align-items: center;
+    width: 90%;
 }
 
 
