@@ -30,7 +30,7 @@ header {
     height: 5em;
     top: 0;
     background-color: rgb(233, 241, 241);
-    border-top: .1em solid red;
+    border-top: .2em solid red;
     border-bottom: .2em solid red;
     display: flex;
     /* position: fixed;  */
@@ -53,15 +53,18 @@ header {
 #nav-bar {
     width: 100vw;
     display: flex;
+    justify-content: center;
    
 }
 ul {
     width: 100%;
     margin: 0;
+    
     list-style-type: none;
     display: flex;
     justify-content: space-evenly; 
     flex-wrap: wrap;
+    padding: 0;
    
 }
 li {
@@ -86,7 +89,7 @@ h1 {
     margin-right: auto; */
 }
 h2 {
-    margin: 2em;
+    margin: 1em;
     text-align: center;
     line-height: 1.5em;
 }
@@ -114,7 +117,9 @@ p {
     align-items: center;
     width: 96%;
 }
+#probna_slika > img{
 
+}
 
 
 @media only screen and (max-width: 400px) {
@@ -125,14 +130,29 @@ p {
         height: 6em;
     }
     h1 {
-        margin: 1em ;
+        font-size: 26px;
+        font-weight:900;
     }
     #content {
         width: 95%;
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     iframe {
         width: 80vw;
     }
+    #na_sadrzaje > ul {
+        list-style-type: none;
+        display: block
+       
+       
+    }
+    #na_sadrzaje > li {
+        text-align: center;
+    }
+
+    #na_sadrzaje > a{
+        justify-items: center;
+    }
+
   
 }
