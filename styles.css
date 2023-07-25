@@ -62,7 +62,7 @@ ul {
     
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     flex-wrap: wrap;
     padding: 0;
    
@@ -122,12 +122,24 @@ p {
 }
 
 
+
+.sliko_container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.preview_slikoprice > img{
+    width: 60px;
+}
+
+
 @media only screen and (max-width: 400px) {
     body { 
         font-size: 16px;
     }
     header {
-        height: 6em;
+        height: 3em;
     }
     h1 {
         font-size: 26px;
@@ -135,7 +147,7 @@ p {
     }
     #content {
         width: 95%;
-        margin-top: 3vh;
+        margin-top: 1vh;
     }
     iframe {
         width: 80vw;
@@ -153,6 +165,11 @@ p {
     #na_sadrzaje > a{
         justify-items: center;
     }
+    #about{
+        width: 90%;
+    }
+
+ 
 
   
 }
