@@ -143,7 +143,7 @@ p {
 #to_content li {
     /* width: 4.5em; */
     list-style: none;
-    margin: .7em;
+    /* margin: .7em; */
     /* list-style-type: none; */
     float: left;
 }
