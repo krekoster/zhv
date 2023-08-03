@@ -15,9 +15,15 @@ function toggleLinksDisplay() {
 
 $("img.preview_slikoprice").click(function(){
     if ($(this).css("width") === "60px") {
-        $(this).css("width","99vw");
+        if ($(window).width() < 800) {
+            $(this).css({"width": "95vw"});
+            $(".naziv_slikoprice").hide();
+        }
+        else {
+            $(this).css({"width": "50vw"});
+            $(".naziv_slikoprice").hide();
+        }
         
-        $(".naziv_slikoprice").hide();
     }
     else {
         $(this).css("width","60px");
