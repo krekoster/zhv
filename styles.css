@@ -57,9 +57,18 @@ header {
     margin-left: 2em;
 }
 
-.icon {
-    margin-right: 3em;
+/* .icon {
+    margin-right: 2em;
     float: right;
+} */
+
+/* #hamburger {
+    margin-right: 1em;
+    float: right;
+} */
+
+.fixed a {
+    float: right;;
 }
 
 #content {
@@ -181,16 +190,34 @@ p {
 }
 /*_____________sadržaji__________________________*/
 
-#tekst_biografije {
+#biografija {
     width: 95%;
 }
 
+#meni_o_meni {
+    font-size: 24px;
+   
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto 2em;
+}
+#meni_o_meni a {
+    margin: 1em;
+}
 
+#bio_foto  img{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15vh;
+}
 
-
-
-
-
+#moja_slikoprica {
+    margin:auto;
+}
+#moja_slikoprica img {
+    width:90%;
+}
 
 
 
@@ -320,12 +347,25 @@ p {
 .sliko_container img {
     width: 60px;
 }
-
-
+#meni_o_meni {
+    font-size: 20px;
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+}
+#meni_o_meni a {
+    margin: 1em;
 }
 
-@media only screen and (min-width: 801px) {
-    .icon {
+
+
+
+
+/*__________veliki ekrani____________*/
+
+
+@media only screen and (min-width: 1000px) {
+    #hamburger {
         display: none;
     }
 }
