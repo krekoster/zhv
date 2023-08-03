@@ -5,6 +5,7 @@
     <title>Željka Horvat Vukelja</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -20,59 +21,49 @@
             <nav id="nav-bar">
                 <div class="fixed">
                     <a href="index.html" id="logo" target="_self"> LOGO </a>
-                </div>  
-    
+                </div>
+
                 <div class="fixed">
-                    <a href="javascript:void(0);" class="icon" onclick = "toggleLinksDisplay()" >
+                    <a href="javascript:void(0);" class="icon" onclick="toggleLinksDisplay()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
-    
+
                 <div id="myLinks">
                     <a href="biografija.html" target="_self" id="aboutLink" style="text-align:left;">O meni </a>
                     <a href="projekti.html" target="_self"> Projekti </a>
-                    <a href="galerija.html" target="_self"> Galerija </a>            
+                    <a href="galerija.html" target="_self"> Galerija </a>
                     <a href="naslovnice.html" target="_self"> Naslovnice </a>
                     <a href="partneri.html" target="_self"> Partneri </a>
                     <a href="kontakt.html" target="_self"> Kontakt </a>
                 </div>
-    
+
             </nav>
         </nav>
     </header>
     <div id="content">
         <h1>proba slikoprica v2 </h1>
-
-
         <hr>
-
-
         <div class="sliko_container">
             <div class="naziv_slikoprice">
                 <h3>neko ime price</h3>
             </div>
-
-            <div class="preview_slikoprice">
-                <img src="img/slikoprice/pliva_patka.jpg" alt="pliva patka">
+            <div class="preview_container">
+                <img src="img/slikoprice/pliva_patka.jpg" alt="pliva patka" class="preview_slikoprice" >
             </div>
-
         </div>
         <hr>
         <div class="sliko_container">
             <div class="naziv_slikoprice">
                 <h3>neko ime price</h3>
             </div>
-
-            <div class="preview_slikoprice">
-                <img src="img/slikoprice/pliva_patka.jpg" alt="pliva patka">
+            <div class="preview_container">
+                <img src="img/slikoprice/pliva_patka.jpg" alt="pliva patka" class="preview_slikoprice" >
             </div>
-
         </div>
-        <hr>
-    </div>
 
-    <script src="script.js">
-    </script>
+        <script src="script.js">
+        </script>
 </body>
 
 </html>

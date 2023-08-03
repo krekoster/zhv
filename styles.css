@@ -168,7 +168,7 @@ p {
     justify-content: space-around;
 }
 
-.preview_slikoprice>img {
+.preview_slikoprice img {
     width: 60px;
 }
 #dummydiv {
@@ -306,12 +306,14 @@ p {
     }
 
 /*_____________sadržaji__________________________*/
-.preview_slikoprice:active {
+/* .preview_slikoprice:active {
     width: 90vw;
     height: 90vh;
     background-color: #F45050;
+} */
+.sliko_container img {
+    width: 60px;
 }
-
 
 
 }
