@@ -14,11 +14,9 @@ function toggleLinksDisplay() {
 
 
 $("img.preview_slikoprice").click(function(){
-    // let izlaz = $(this).css("width");
-    // console.log(izlaz);
-
     if ($(this).css("width") === "60px") {
         $(this).css("width","99vw");
+        
         $(".naziv_slikoprice").hide();
     }
     else {

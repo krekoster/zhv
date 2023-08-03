@@ -9,17 +9,19 @@
 
 body {
     font-family: Nunito, Verdana, sans-serif;
+    
     background-color: rgba(247, 250, 253, 0.3);
-    color: rgb(33, 31, 31);
+    color: rgb(2, 2, 2);
     margin: 0;
     padding: 0;
     font-size: 22px;
     line-height: 1.5em;
     letter-spacing: .1em;
     text-align: center;
-    font-weight: 300;
+    font-weight: 600;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
@@ -174,6 +176,9 @@ p {
 #dummydiv {
     height:20em;
 }
+.preview_slikoprice {
+    width:60px;
+}
 /*_____________sadržaji__________________________*/
 
 
@@ -272,11 +277,12 @@ p {
 
     
 
-    #aboutLink {
+    #aboutLink a {
         text-align: left;
-        left: -5em;
+        left: -10em;
         justify-content: left;
         width: 6em;
+        /* margin-left: 0.6em, 0; */
 
     }
 
@@ -306,11 +312,9 @@ p {
     }
 
 /*_____________sadržaji__________________________*/
-/* .preview_slikoprice:active {
-    width: 90vw;
-    height: 90vh;
-    background-color: #F45050;
-} */
+
+
+
 .sliko_container img {
     width: 60px;
 }
