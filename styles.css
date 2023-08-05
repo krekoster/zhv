@@ -155,7 +155,7 @@ p {
 #to_content li {
     /* width: 4.5em; */
     list-style: none;
-    /* margin: .7em; */
+    margin: .7em;
     /* list-style-type: none; */
     float: left;
 }
@@ -166,12 +166,14 @@ p {
     /* left: 4em; */
 }
 
-/* .content_link{
-    display: inline-block;
+.content_link a{
+   
    
     margin: .5em;
-    font-size: larger;
-} */
+
+    /* font-size: larger;
+    display: inline-block; */
+}
 
 .sliko_container {
     width: 80vw;
