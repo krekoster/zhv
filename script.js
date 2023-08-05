@@ -11,10 +11,6 @@ function toggleLinksDisplay() {
     }
 }
 
-
-
- 
-
 $(document).ready(function () {
     $("img.preview_slikoprice").click(function(){
         if ($(this).css("width") === "60px") {
