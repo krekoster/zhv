@@ -1,13 +1,15 @@
 function toggleLinksDisplay() {
     let menu = document.getElementById("myLinks");
-    let background = document.getElementById("content");
-    // background.style.backgroundColor = "red";
+    let content = document.getElementById("content");
     if (menu.style.display === "block") {
         menu.style.display = "none";
+        content.style.paddingTop = "5em";
     }
     else {
         menu.style.display = "block";
-        //background.style.backgroundColor = "red";
+        content.style.paddingTop = "13em";
+        
+        
     }
 }
 
