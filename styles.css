@@ -243,6 +243,13 @@ p {
     
 
 }
+figure {
+    margin: 2em auto 2em;
+}
+figure img{
+    width: 80%;
+   
+}
 
 
 
@@ -394,6 +401,14 @@ p {
     
 
 }
+figure {
+    margin: 2em auto 2em;
+}
+figure img{
+    width:80vw;
+   
+}
+
 
 
 
