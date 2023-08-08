@@ -179,6 +179,10 @@ p {
     display: inline-block; */
 }
 
+
+
+/*_____________sadržaji__________________________*/
+
 .sliko_container {
     width: 80vw;
     display: flex;
@@ -197,9 +201,6 @@ p {
 .preview_slikoprice {
     width: 60px;
 }
-
-/*_____________sadržaji__________________________*/
-
 #biografija {
     width: 95%;
     margin-bottom: 8em;
@@ -263,6 +264,18 @@ figure {
 figure img {
     width: 80%;
 
+}
+#holder {
+    display: none;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10em;
+   
+}
+#holder img {
+    width: 80%;
 }
 
 
@@ -383,6 +396,22 @@ figure img {
     /*_____________sadržaji__________________________*/
 
 
+    #holder {
+        display: none;
+
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10em;
+       
+    }
+    #holder img {
+        width: 98vw;
+    }
+
+    .slike_druge {
+        display: none;
+    }
 
     .sliko_container img {
         width: 60px;
