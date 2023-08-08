@@ -277,6 +277,9 @@ figure img {
 #holder img {
     width: 80%;
 }
+.slike_druge {
+    display: none;
+}
 
 
 
@@ -453,6 +456,10 @@ figure img {
     figure img {
         width: 80vw;
 
+    }
+
+    .naziv_slikoprice h3 {
+        width: 10em;
     }
 
 
