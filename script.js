@@ -86,6 +86,7 @@ $(document).ready(function(){
         if ($("#holder").is(":visible")) {
             $("#holder").empty();
             $("#holder").hide();
+            $(".slike_druge").hide();
         }
         else { 
             $(".slike_druge").show();
@@ -98,6 +99,7 @@ $(document).ready(function(){
     $("#holder").click(function() {
         $("#holder").empty();
         $("#holder").hide();
+        $(".slike_druge").hide();
     });
 
 });
