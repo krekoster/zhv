@@ -277,11 +277,25 @@ figure img {
 }
 #holder img {
     width: 80%;
+    margin-bottom: 0;
 }
 .slike_druge {
     display: none;
 }
 
+#radio_djela ul {
+    padding:  0;
+    margin-bottom: 4em;
+}
+#radio_djela li {
+    list-style-type: none;
+    font-size: larger;
+    margin: 0.6em;
+}
+
+#logo_skolska {
+    width: 70%;
+}
 
 
 
@@ -406,7 +420,7 @@ figure img {
         width: 100vw;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10em;
+        margin-bottom: 20em;
        
     }
     #holder img {
