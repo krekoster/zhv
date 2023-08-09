@@ -204,9 +204,12 @@ p {
 #biografija {
     width: 95%;
     margin-bottom: 8em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#meni_o_meni {
+
+/* #meni_o_meni {
     font-size: 24px;
 
     display: flex;
@@ -216,7 +219,8 @@ p {
 
 #meni_o_meni a {
     margin: 1em;
-}
+} */
+
 
 #bio_foto img {
     width: 55%;
@@ -278,6 +282,7 @@ figure img {
 #holder img {
     width: 80%;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .slike_druge {
     display: none;
@@ -401,7 +406,7 @@ figure img {
 
 
 
-    #logo>a {
+    #logo  a {
         float: left;
         margin-left: 2em;
     }
@@ -425,6 +430,8 @@ figure img {
     }
     #holder img {
         width: 98vw;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     .slike_druge {
@@ -449,6 +456,15 @@ figure img {
     #moja_slikoprica img {
         width: 100vw;
         margin: 0;
+    }
+    #bio_foto img {
+        width: 70vw;
+    }
+    #biografija {
+        width: 90vw;
+        margin-bottom: 8em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .djelo_container {
