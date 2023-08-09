@@ -49,7 +49,7 @@ header {
     width: 100%;
     /* background-color: rgb(233, 241, 241); */
     background-color: var(--darkerColor);
-   
+
     /* border-top: .2em solid red;
     border-bottom: .2em solid red; */
 
@@ -69,10 +69,11 @@ header {
 
 #nav-bar {
     width: 100vw;
-    height: auto; 
+    height: auto;
 }
+
 #nav-bar a {
-   color: var(--lightColor);
+    color: var(--lightColor);
 }
 
 #logo {
@@ -216,9 +217,8 @@ p {
     justify-content: space-evenly;
 }
 
-.preview_container  {
-  
-}
+.preview_container {}
+
 .preview_slikoprice img {
     width: 60px;
 }
@@ -440,6 +440,18 @@ figure img {
 
     }
 
+    #to_content ul {}
+
+    /* #to_content li {
+        background-color: var(--lightColor);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    } */
+
+
+
 
 
     #to_content a {
@@ -449,6 +461,12 @@ figure img {
         margin-left: 8em;
         margin-right: 8em;
         font-size: 22px;
+        padding: .1em 1em;
+        background-color: var(--lightColor);
+        border: solid 1px var(--darkerColor);
+        border-radius: 5px;
+
+
     }
 
 
@@ -490,8 +508,9 @@ figure img {
 
     .sliko_container {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
     }
+
     .sliko_container img {
         width: 60px;
     }
