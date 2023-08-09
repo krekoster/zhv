@@ -1,14 +1,12 @@
-
-
 /*
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito:wght@200&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Itim&family=Nunito:wght@200&display=swap');
-
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Itim&family=Mali&display=swap');
 
@@ -17,20 +15,21 @@
     --lighterColor: #F0F0F0;
     --lightColor: #F9D949;
     --darkColor: #F45050;
-    --darkerColor: #3C486B; 
+    --darkerColor: #3C486B;
 }
 
 body {
-    font-family:  Mali;
-    background-color: rgba(247, 250, 253, 0.3);
-    color: rgb(2, 2, 2);
+    font-family: Mali, Arial;
+    /* background-color: rgba(247, 250, 253, 0.3); */
+    background-color: var(--lighterColor);
+    color: var(--darkerColor);
     margin: 0;
     padding: 0;
     font-size: 22px;
     line-height: 1.5em;
     letter-spacing: .1em;
     text-align: center;
-    font-weight: 400;
+    font-weight: 200;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,29 +47,38 @@ hr {
 
 header {
     width: 100%;
-    background-color: rgb(233, 241, 241);
-    border-top: .2em solid red;
-    border-bottom: .2em solid red;
+    /* background-color: rgb(233, 241, 241); */
+    background-color: var(--darkerColor);
+   
+    /* border-top: .2em solid red;
+    border-bottom: .2em solid red; */
+
+    border-top: .2em solid var(--darkColor);
+    border-bottom: .2em solid var(--darkColor);
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     padding: 1em;
     position: fixed;
-    z-index: 100; 
+    z-index: 100;
     overflow: hidden;
     top: 0;
-    
+
 }
 
 #nav-bar {
     width: 100vw;
-    height: auto;
+    height: auto; 
+}
+#nav-bar a {
+   color: var(--lightColor);
 }
 
 #logo {
     float: left;
     margin-left: 2em;
+    color: var(--lightColor);
 }
 
 /* .icon {
@@ -78,10 +86,11 @@ header {
     float: right;
 } */
 
-/* #hamburger {
+#hamburger {
     margin-right: 1em;
     float: right;
-} */
+    color: var(--lightColor);
+}
 
 .fixed a {
     float: right;
@@ -108,7 +117,9 @@ header {
 
 a {
     text-decoration: none;
-    color: rgb(47, 43, 43);
+    /* color: rgb(47, 43, 43); */
+    color: var(--darkerColor);
+
 }
 
 a:hover {
@@ -153,7 +164,7 @@ p {
     text-align: justify;
 }
 
-#probna_slika  img {
+#probna_slika img {
     align-items: center;
     width: 96%;
 }
@@ -202,9 +213,12 @@ p {
     width: 80vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
+.preview_container  {
+  
+}
 .preview_slikoprice img {
     width: 60px;
 }
@@ -216,6 +230,7 @@ p {
 .preview_slikoprice {
     width: 60px;
 }
+
 #biografija {
     width: 95%;
     margin-bottom: 8em;
@@ -283,8 +298,11 @@ figure {
 
 figure img {
     width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px rgba(55, 50, 99, 0.3);
 
 }
+
 #holder {
     display: none;
 
@@ -292,21 +310,24 @@ figure img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10em;
-   
+
 }
+
 #holder img {
     width: 80%;
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .slike_druge {
     display: none;
 }
 
 #radio_djela ul {
-    padding:  0;
+    padding: 0;
     margin-bottom: 4em;
 }
+
 #radio_djela li {
     list-style-type: none;
     font-size: larger;
@@ -316,9 +337,20 @@ figure img {
 #logo_skolska {
     width: 70%;
 }
- #logo_hrt {
-    width:60%;
- }
+
+#logo_hrt {
+    width: 60%;
+}
+
+.news_container {
+    margin-top: 2em;
+    width: 70vw;
+    padding: 2em;
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    background-color: var(--lightColor);
+}
 
 
 
@@ -423,7 +455,7 @@ figure img {
 
 
 
-    #logo  a {
+    #logo a {
         float: left;
         margin-left: 2em;
     }
@@ -443,8 +475,9 @@ figure img {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20em;
-       
+
     }
+
     #holder img {
         width: 98vw;
         margin-bottom: 0;
@@ -455,6 +488,10 @@ figure img {
         display: none;
     }
 
+    .sliko_container {
+        display: flex;
+        justify-content:space-around;
+    }
     .sliko_container img {
         width: 60px;
     }
@@ -469,16 +506,20 @@ figure img {
     #meni_o_meni a {
         margin: 1em;
     }
+
     #moja_slikoprica {
         margin: 0;
     }
+
     #moja_slikoprica img {
         width: 100vw;
         margin: 0;
     }
+
     #bio_foto img {
         width: 70vw;
     }
+
     #biografija {
         width: 90vw;
         margin-bottom: 8em;
@@ -511,13 +552,23 @@ figure img {
     .naziv_slikoprice h3 {
         width: 10em;
     }
+
     #logo_sk {
-        width:70vw;
-     }
-    
+        width: 70vw;
+    }
+
     #logo_hrt {
-        width:60vw;
-     }
+        width: 60vw;
+    }
+
+    .news_container {
+        margin-top: 2em;
+        width: 70vw;
+        padding: 2em;
+        border: solid 1px grey;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px;
+    }
 
 
 

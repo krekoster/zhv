@@ -93,6 +93,7 @@ $(document).ready(function(){
             $("#holder").show();  
             $(this).clone().appendTo("#holder");
             $("#holder").focus();
+            console.log("fokus");
            
         }  
     });
