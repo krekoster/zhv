@@ -31,5 +31,4 @@ $(document).ready(function(){
         $("#holder").hide();
         $(".slike_druge").hide();
     });
-
 });
