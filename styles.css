@@ -1,14 +1,29 @@
+
+
+/*
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Itim&family=Nunito:wght@200&display=swap');
+
+
+@font-face {
+    font-family: RezervniFont;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+}
 
 :root {
     --lighterColor: #F0F0F0;
     --lightColor: #F9D949;
     --darkColor: #F45050;
-    --darkerColor: #3C486B;
+    --darkerColor: #3C486B; 
 }
 
 body {
-    font-family: Nunito, Verdana, sans-serif;
+    font-family:  Itim;
 
     background-color: rgba(247, 250, 253, 0.3);
     color: rgb(2, 2, 2);
@@ -18,7 +33,7 @@ body {
     line-height: 1.5em;
     letter-spacing: .1em;
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
     margin-left: auto;
     margin-right: auto;
 
@@ -452,7 +467,9 @@ figure img {
     #meni_o_meni a {
         margin: 1em;
     }
-
+    #moja_slikoprica {
+        margin: 0;
+    }
     #moja_slikoprica img {
         width: 100vw;
         margin: 0;
