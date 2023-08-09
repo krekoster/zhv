@@ -330,6 +330,12 @@ figure img {
 #logo_hrt {
     width: 60%;
 }
+.partner_logo   {
+    border:solid 2px rgba(144, 159, 172, 0.989);
+    border-radius: 10px;
+    /* box-shadow:  inset 5px 0 -8px -10px rgba(241, 241, 244, 0.939) ; */
+
+}
 
 .news_container {
     margin-top: 2em;
