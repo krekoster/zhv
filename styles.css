@@ -24,7 +24,6 @@
 
 body {
     font-family:  Itim;
-
     background-color: rgba(247, 250, 253, 0.3);
     color: rgb(2, 2, 2);
     margin: 0;
@@ -38,9 +37,11 @@ body {
     margin-right: auto;
 }
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5, h6,a {
+    font-size: 24px;
     font-family: Amatic SC;
-}
+    font-weight: bold;
+} */
 
 hr {
     color: gray;
@@ -154,7 +155,7 @@ p {
     text-align: justify;
 }
 
-#probna_slika>img {
+#probna_slika  img {
     align-items: center;
     width: 96%;
 }
@@ -317,7 +318,9 @@ figure img {
 #logo_skolska {
     width: 70%;
 }
-
+ #logo_hrt {
+    width:60%;
+ }
 
 
 
@@ -510,7 +513,13 @@ figure img {
     .naziv_slikoprice h3 {
         width: 10em;
     }
-
+    #logo_sk {
+        width:70vw;
+     }
+    
+    #logo_hrt {
+        width:60vw;
+     }
 
 
 
