@@ -7,7 +7,7 @@ function toggleLinksDisplay() {
     }
     else {
         menu.style.display = "block";
-        content.style.paddingTop = "14em";
+        content.style.paddingTop = "15em";
     }
 }
 

@@ -74,6 +74,8 @@ header {
     float: left;
     margin-left: 2em;
     color: var(--lightColor);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #header_logo {
     width: 60px;
@@ -94,7 +96,7 @@ header {
 
 .fixed a {
     float: right;
-    ;
+    
 }
 
 #content {
@@ -217,22 +219,22 @@ p {
 /*_____________sadržaji__________________________*/
 
 .sliko_container {
-    width: 80vw;
+    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
 }
 
-/* .naziv_slikoprice {
-    display: inline;
+.naziv_slikoprice {
+   width: 40%;
 }
 .preview_container {
-    display: inline;
-} */
+    width: 20%;
+}
 
 .preview_slikoprice {
-    
+   
 }
 
 .preview_slikoprice img {
@@ -421,20 +423,13 @@ figure img {
         font-size: 16px;
     }
 
-    /* header {
-        max-height: 15em;
-    }
-
-    #navbar {
-        max-height: 13em;
-    } */
-
+ 
     #myLinks {
         display: none;
         width: 100vw;
         padding: .5em;
         position: relative;
-        top: 1.5em;
+        top: .5em;
         /* left: -1em; */
         /* background-color: rgb(207, 235, 235);  */
     }
