@@ -20,7 +20,6 @@
 
 body {
     font-family: Mali, Arial;
-    /* background-color: rgba(247, 250, 253, 0.3); */
     background-color: var(--lighterColor);
     color: var(--darkerColor);
     margin: 0;
@@ -34,8 +33,6 @@ body {
     margin-right: auto;
 }
 
-
-
 hr {
     color: gray;
     width: 60%;
@@ -43,10 +40,7 @@ hr {
 
 header {
     width: 100%;
-    /* background-color: rgb(233, 241, 241); */
     background-color: var(--darkerColor);
-    /* border-top: .2em solid red;
-    border-bottom: .2em solid red; */
     border-top: .2em solid var(--darkColor);
     border-bottom: .2em solid var(--darkColor);
     display: flex;
@@ -79,6 +73,7 @@ header {
 }
 #header_logo {
     width: 60px;
+    transform: translateY(10%);
 }
 
 /* .icon {
@@ -111,23 +106,25 @@ header {
     padding-top: 5em;
 }
 
+#myLinks {
+    /* top: 50%; */
+    transform: translateY(50%);
+}
+
 #myLinks a {
     margin: .6em .6em;
 }
 
 a {
     text-decoration: none;
-    /* color: rgb(47, 43, 43); */
     color: var(--darkerColor);
 }
 
-a:hover {
+/* a:hover {
     font-weight: bold;
-    /* color: red; */
-}
+} */
 
 h1 {
-    /* display: flex; */
     margin-top: 1em;
     /* line-height: 1.5em;
     letter-spacing: 0.1 em; */
@@ -183,8 +180,6 @@ p {
     width: 96%;
 }
 
-
-
 #to_content ul {
     padding: 0;
     width: 100%;
@@ -194,24 +189,18 @@ p {
 }
 
 #to_content li {
-    /* width: 4.5em; */
     list-style: none;
     margin: .7em;
-    /* list-style-type: none; */
     float: left;
 }
 
 #to_content a {
     display: inline-block;
-    /* margin: .5em; */
     font-size: larger;
-    /* left: 4em; */
 }
 
 .content_link a {
     margin: .5em;
-    /* font-size: larger;
-    display: inline-block; */
 }
 
 /*_____________sadržaji__________________________*/
@@ -422,15 +411,13 @@ figure img {
         font-size: 16px;
     }
 
- 
     #myLinks {
         display: none;
         width: 100vw;
         padding: .5em;
         position: relative;
         top: .5em;
-        /* left: -1em; */
-        /* background-color: rgb(207, 235, 235);  */
+        transform: translateY(0%);
     }
 
     #myLinks a {
@@ -440,7 +427,17 @@ figure img {
         margin: .3em;
         margin-left: 1.5em;
     }
+
+    .fa-bars {
+        transform: translateY(-50%);
+        transform: translateX(1.5em);
+    }
    
+    /* .fa-bars ::before{
+        width: 32px;
+        transform: translateY(50%);
+        transform: translateX(1.5em);
+    } */
 
     h1 {
         font-size: 26px;
@@ -468,14 +465,13 @@ figure img {
         text-align: center;
     }
 
-    #na_sadrzaje a {
-
-    }
     #header_logo {
         width: 30px;
     }
+
     #hamburger {
         display: block;
+        margin-top: .5em;
     }
 
     #about {

@@ -27,7 +27,6 @@ $(document).ready(function(){
             $(this).clone().appendTo("#holder");
             // $("#holder").focus("#holder");
             $(window).scrollTop(0);
-            console.log("fokus"); 
         }  
     });
     $("#holder").click(function() {
