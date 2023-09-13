@@ -215,6 +215,9 @@ p {
 }
 
 /*_____________sadržaji__________________________*/
+#holder {
+    width: 100%;
+}
 
 .sliko_container {
     width: 60vw;
@@ -227,9 +230,9 @@ p {
 .naziv_slikoprice {
    width: 40%;
 }
-.preview_container {
+/* .preview_container {
     width: 20%;
-}
+} */
 
 
 
