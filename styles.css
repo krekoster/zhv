@@ -35,7 +35,7 @@ body {
 
 hr {
     color: gray;
-    width: 60%;
+    width: 50%;
 }
 
 header {
@@ -438,6 +438,10 @@ figure img {
         transform: translateY(50%);
         transform: translateX(1.5em);
     } */
+
+    hr {
+        width: 60%;
+    }
 
     h1 {
         font-size: 26px;
