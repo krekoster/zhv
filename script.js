@@ -1,3 +1,4 @@
+// toggle navbar links
 function toggleLinksDisplay() {
     let menu = document.getElementById("myLinks");
     let content = document.getElementById("content");
@@ -11,6 +12,8 @@ function toggleLinksDisplay() {
     }
 }
 
+
+// toggle images
 $(document).ready(function(){
     $(".preview_container").click(function(){
         if ($("#holder").is(":visible")) {
