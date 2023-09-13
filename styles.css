@@ -183,9 +183,7 @@ p {
     width: 96%;
 }
 
-#to_content {
-    /* text-align: center; */
-}
+
 
 #to_content ul {
     padding: 0;
@@ -233,9 +231,7 @@ p {
     width: 20%;
 }
 
-.preview_slikoprice {
-   
-}
+
 
 .preview_slikoprice img {
     width: 60px;
@@ -544,6 +540,12 @@ figure img {
         margin-top: 0;
     }
 
+    .naziv_slikoprice {
+        width: auto;
+     }
+     .preview_container {
+         width: auto;
+     }
     .slike_druge {
         display: none;
     }
