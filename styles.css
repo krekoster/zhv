@@ -98,7 +98,7 @@ header {
 }
 
 #content {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -255,6 +255,10 @@ p {
     margin-right: auto;
 }
 
+#biografija h2 {
+    margin-bottom: 2em;
+}
+
 
 /* #meni_o_meni {
     font-size: 24px;
@@ -304,7 +308,7 @@ margin: .5em;
 }
 
 .djelo_naslovnica img {
-    width: 50vw;
+    width: 40vw;
     margin-top: .5em;
     margin-bottom: .5em;
 }
@@ -349,26 +353,56 @@ figure img {
 #radio_djela li {
     list-style-type: none;
     font-size: larger;
-    margin: 0.6em;
+    margin: .6em;
 }
 
+
+
 #logo_skolska {
-    width: 70%;
+    width: 60%;
+}
+#logo_smib {
+    width: 40%;
+}
+#logo_lasta {
+    width: 33%;
 }
 
 #logo_hrt {
-    width: 60%;
+    width: 50%;
+}
+
+#logo_glazbaonica {
+    width:33%;
+}
+#logo_dhk {
+    width: 30%;
+}
+
+#logo_zarPtica {
+    width:50%;
+}
+
+#logo_arka {
+    width: 30%;
+    border: none;
 }
 .partner_logo   {
     border:solid 2px rgba(144, 159, 172, 0.989);
     border-radius: 10px;
     /* box-shadow:  inset 5px 0 -8px -10px rgba(241, 241, 244, 0.939) ; */
+    margin: 1em 1em 2em 1em;
 
+}
+.partner_container hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width:80%;
 }
 
 .news_container {
     margin-top: 2em;
-    width: 70vw;
+    width: 50vw;
     padding: 2em;
     border: solid 1px grey;
     border-radius: 5px;
@@ -594,6 +628,50 @@ figure img {
     .naziv_slikoprice h3 {
         width: 10em;
     }
+
+    .partner_container hr {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width:70%;
+    }
+    
+       
+       #logo_skolska {
+           width: 70%;
+       }
+       #logo_smib {
+           width: 50%;
+       }
+       #logo_lasta {
+           width: 33%;
+       }
+       
+       #logo_hrt {
+           width: 50%;
+       }
+       
+       #logo_glazbaonica {
+           width:45%;
+       }
+       #logo_dhk {
+           width: 40%;
+       }
+       
+       #logo_zarPtica {
+           width:65%;
+       }
+       
+       #logo_arka {
+           width: 40%;
+           border: none;
+       }
+       .partner_logo   {
+           border:solid 2px rgba(144, 159, 172, 0.989);
+           border-radius: 10px;
+           /* box-shadow:  inset 5px 0 -8px -10px rgba(241, 241, 244, 0.939) ; */
+           margin: 1em 1em 2em 1em;
+       
+       }
 
     #logo_sk {
         width: 70vw;

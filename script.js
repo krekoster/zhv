@@ -22,7 +22,8 @@ $(document).ready(function(){
             $(".slike_druge").show();
             $("#holder").show();  
             $(this).clone().appendTo("#holder");
-            $("#holder").focus();
+            // $("#holder").focus("#holder");
+            $(window).scrollTop(0);
             console.log("fokus"); 
         }  
     });
