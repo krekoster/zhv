@@ -45,7 +45,7 @@ hr {
 header {
     width: 100%;
     background-color: var(--darkerColor);
-    /* border-top: 0.2em solid var(--darkColor); */
+    border-top: 0.2em solid var(--darkColor);
     border-bottom: 0.2em solid var(--darkColor);
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ h4 {
 }
 
 #logo-img {
-    width: 70%;
+    width: 65%;
     margin: 0.6em;
 }
 
