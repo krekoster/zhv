@@ -34,7 +34,7 @@ hr {
 header {
     width: 100%;
     background-color: var(--darkerColor);
-    border-top: 0.2em solid var(--darkColor);
+    /* border-top: 0.2em solid var(--darkColor); */
     border-bottom: 0.2em solid var(--darkColor);
     display: flex;
     justify-content: center;
@@ -325,7 +325,8 @@ figure img {
 }
 
 #logo_lasta {
-    width: 33%;
+    width: 38%;
+    border: none;
 }
 
 #logo_hrt {
@@ -627,7 +628,7 @@ figure img {
     }
 
     #logo_lasta {
-        width: 33%;
+        width: 40%;
     }
 
     #logo_hrt {
