@@ -87,6 +87,10 @@ header {
     display: none;
 }
 
+.fa-bars {
+    color: #006e7f;
+}
+
 .fixed a {
     float: right;
 }
@@ -273,8 +277,22 @@ p {
     margin-bottom: 0.5em;
 }
 
+.djelo_opis hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: var(--darkColor);
+    border: solid 1px var(--darkColor);
+}
+
 #siskabaliska {
     width: 40%;
+}
+
+#portret_porec {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure {
@@ -472,6 +490,10 @@ figure img {
         margin-top: 0.5em;
     }
 
+    .fa-bars {
+        color: var(--lightColor);
+    }
+
     #aboutLink a {
         text-align: left;
         left: -10em;
@@ -597,6 +619,13 @@ figure img {
         line-height: 1.5em;
     }
 
+    .djelo_opis hr {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        color: var(--darkColor);
+        border: solid 1px var(--darkColor);
+    }
+
     #siskabaliska {
         width: 40vw;
     }
@@ -607,6 +636,13 @@ figure img {
 
     figure img {
         width: 80vw;
+    }
+
+    #portret_porec {
+        width: 80vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .naziv_slikoprice h3 {
@@ -690,6 +726,7 @@ figure img {
 @media only screen and (min-width: 1500px) {
     #hamburger {
         display: none;
+
     }
 
     #content {
