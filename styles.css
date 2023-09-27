@@ -284,6 +284,11 @@ p {
     border: solid 1px var(--darkColor);
 }
 
+#prvi_hr {
+    border: solid 1px var(--darkColor);
+    margin-bottom: 2em;
+}
+
 #siskabaliska {
     width: 40%;
 }
@@ -479,6 +484,10 @@ figure img {
 
     #na_sadrzaje li {
         text-align: center;
+    }
+
+    #logo  {
+        margin-left: 1.5em;
     }
 
     #header_logo {
